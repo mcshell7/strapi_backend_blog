@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_editos",
+  "info": {
+    "displayName": "edito",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

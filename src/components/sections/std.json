@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_shared_stds",
+  "info": {
+    "displayName": "std",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "btn": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.btn"
+    }
+  }
+}
