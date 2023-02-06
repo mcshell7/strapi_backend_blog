@@ -5,12 +5,15 @@
     "singularName": "category",
     "pluralName": "categories",
     "displayName": "Category",
-    "name": "category"
+    "name": "category",
+    "description": ""
   },
   "options": {
     "increments": true,
-    "timestamps": true
+    "timestamps": true,
+    "draftAndPublish": false
   },
+  "pluginOptions": {},
   "attributes": {
     "name": {
       "type": "string",
